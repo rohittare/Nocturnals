@@ -23,7 +23,7 @@ export default function Home() {
 
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen">
+    <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-br from-blue-50 to-sky-100 dark:from-blue-950 dark:to-sky-900">
 
       <div className=" bg-gradient-to-r from-green-300 via-blue-500 to-green-300 h-100 w-full flex items-center justify-center ">
         <div className="text-white text-5xl">LOGO</div>

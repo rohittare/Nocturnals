@@ -7,7 +7,7 @@ export default function MainLayout({
   children: React.ReactNode;
 }>) {
   return (
-        <div className="relative bg-custom-bg min-h-screen w-full bg-gradient-to-br from-blue-50 to-sky-100 dark:from-blue-950 dark:to-sky-900">
+        <div className="relative bg-custom-bg min-h-screen w-full">
           <Navbar />
           <div className="flex ">{children}</div>
         </div>
